@@ -205,8 +205,740 @@
           "options": ["Combines the result set of two or more SELECT statements", "Joins tables based on a foreign key", "Deletes duplicate rows in a table", "Sorts records in descending order"],
           "correctOption": "Combines the result set of two or more SELECT statements",
           "difficulty": "Advanced"
+        },
+        {
+          "question": "What is a `stored procedure` in SQL?",
+          "options": ["A prepared SQL statement that can be executed", "A data structure used for indexing", "A command to optimize queries", "A method for data encryption"],
+          "correctOption": "A prepared SQL statement that can be executed",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which clause is used to filter records in SQL?",
+          "options": ["WHERE", "GROUP BY", "HAVING", "ORDER BY"],
+          "correctOption": "WHERE",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the SQL `GROUP BY` clause do?",
+          "options": ["Groups rows that have the same values in specified columns", "Sorts records in ascending order", "Combines multiple result sets", "Deletes duplicate records"],
+          "correctOption": "Groups rows that have the same values in specified columns",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you retrieve data from a database using SQL?",
+          "options": ["FETCH", "GET", "RETRIEVE", "SELECT"],
+          "correctOption": "SELECT",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is a `subquery` in SQL?",
+          "options": ["A query within another query", "A backup copy of the database", "A method to delete records", "A function to join tables"],
+          "correctOption": "A query within another query",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which function in SQL is used to calculate the total sum of a numeric column?",
+          "options": ["SUM()", "TOTAL()", "COUNT()", "AGGREGATE()"],
+          "correctOption": "SUM()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of an `index` in SQL?",
+          "options": ["To speed up searches and queries", "To prevent duplicate entries", "To enforce referential integrity", "To manage user permissions"],
+          "correctOption": "To speed up searches and queries",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you rename a column in an SQL table?",
+          "options": ["RENAME COLUMN", "MODIFY COLUMN", "CHANGE COLUMN", "ALTER TABLE"],
+          "correctOption": "ALTER TABLE",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `SQL injection` attack do?",
+          "options": ["Exploits vulnerabilities in SQL query handling", "Injects new tables into the database", "Updates records without authorization", "Removes data from the database"],
+          "correctOption": "Exploits vulnerabilities in SQL query handling",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which of the following is a valid SQL comment?",
+          "options": ["/* Comment */", "// Comment", "# Comment", "-- Comment"],
+          "correctOption": "-- Comment",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you delete all records from a table in SQL without deleting the table itself?",
+          "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+          "correctOption": "TRUNCATE",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `CASE` statement in SQL do?",
+          "options": ["Provides conditional logic to SQL queries", "Enforces foreign key constraints", "Sorts records alphabetically", "Joins tables based on common columns"],
+          "correctOption": "Provides conditional logic to SQL queries",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the `HAVING` clause used for in SQL?",
+          "options": ["To filter groups of records", "To sort records", "To combine multiple queries", "To limit the number of records"],
+          "correctOption": "To filter groups of records",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you create a new database in SQL?",
+          "options": ["CREATE DATABASE", "NEW DATABASE", "INSERT DATABASE", "ADD DATABASE"],
+          "correctOption": "CREATE DATABASE",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `EXPLAIN` statement in SQL?",
+          "options": ["To provide information about how SQL statements are executed", "To document the purpose of a query", "To create a backup of the database", "To enforce data integrity"],
+          "correctOption": "To provide information about how SQL statements are executed",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the difference between `INNER JOIN` and `LEFT JOIN` in SQL?",
+          "options": ["INNER JOIN returns matching rows from both tables, while LEFT JOIN returns all rows from the left table and matching rows from the right table", "INNER JOIN returns all rows from both tables, while LEFT JOIN returns only matching rows", "INNER JOIN returns all rows, while LEFT JOIN does not return any rows", "INNER JOIN returns matching rows, while LEFT JOIN returns rows that do not match"],
+          "correctOption": "INNER JOIN returns matching rows from both tables, while LEFT JOIN returns all rows from the left table and matching rows from the right table",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What does the `ALTER TABLE` command do in SQL?",
+          "options": ["Modifies the structure of an existing table", "Deletes a table", "Creates a new table", "Fetches data from a table"],
+          "correctOption": "Modifies the structure of an existing table",
+          "difficulty": "Intermediate"
         }
-        ]
+      ]
+    },
+    {
+      "testId": "3",
+      "testName": "Python Developer Intermediate",
+      "quesArray": [
+        {
+          "question": "What is a list comprehension in Python?",
+          "options": ["A concise way to create lists", "A method to sort lists", "A function to filter lists", "A technique for nested lists"],
+          "correctOption": "A concise way to create lists",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a mutable data type in Python?",
+          "options": ["Tuple", "String", "List", "Integer"],
+          "correctOption": "List",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `len()` function do in Python?",
+          "options": ["Returns the length of an object", "Calculates the sum of a list", "Checks the data type of an object", "Finds the maximum value"],
+          "correctOption": "Returns the length of an object",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `self` keyword in Python classes?",
+          "options": ["To refer to the instance of the class", "To define a static method", "To create a private variable", "To refer to the superclass"],
+          "correctOption": "To refer to the instance of the class",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you define a function in Python?",
+          "options": ["function myFunc():", "def myFunc():", "func myFunc():", "define myFunc():"],
+          "correctOption": "def myFunc():",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `*args` syntax allow you to do in a Python function?",
+          "options": ["Pass a variable number of arguments", "Define a static method", "Return multiple values", "Create a generator function"],
+          "correctOption": "Pass a variable number of arguments",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is not a built-in data type in Python?",
+          "options": ["Dictionary", "Set", "Array", "List"],
+          "correctOption": "Array",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is a decorator in Python?",
+          "options": ["A function that modifies another function", "A type of class", "A method to sort lists", "A keyword for exception handling"],
+          "correctOption": "A function that modifies another function",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What does the `with` statement do in Python?",
+          "options": ["Simplifies exception handling", "Opens files for reading", "Creates loops", "Manages resources within a block"],
+          "correctOption": "Manages resources within a block",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which method is used to add an element to a list in Python?",
+          "options": ["add()", "insert()", "append()", "extend()"],
+          "correctOption": "append()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the output of the following code: `print(2**3)`?",
+          "options": ["8", "6", "9", "4"],
+          "correctOption": "8",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `range()` function do in Python?",
+          "options": ["Generates a sequence of numbers", "Creates an empty list", "Filters a list based on a condition", "Sorts a list of numbers"],
+          "correctOption": "Generates a sequence of numbers",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `if __name__ == '__main__':` block in Python scripts?",
+          "options": ["To execute code only if the script is run directly", "To define a main function", "To initialize a class", "To handle command line arguments"],
+          "correctOption": "To execute code only if the script is run directly",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `os` module in Python provide?",
+          "options": ["Operating system dependent functionality", "Mathematical functions", "String manipulation functions", "Database access functions"],
+          "correctOption": "Operating system dependent functionality",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Python statement is used to handle exceptions?",
+          "options": ["catch", "try", "handle", "except"],
+          "correctOption": "try",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you convert a string to an integer in Python?",
+          "options": ["int()", "str()", "float()", "convert()"],
+          "correctOption": "int()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `Pandas` library in Python specialize in?",
+          "options": ["Data analysis and manipulation", "Web development", "Network programming", "Image processing"],
+          "correctOption": "Data analysis and manipulation",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you check if a key exists in a dictionary in Python?",
+          "options": ["if key in dict:", "dict.hasKey(key)", "dict.contains(key)", "key.exists(dict)"],
+          "correctOption": "if key in dict:",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the primary use of the `__init__` method in Python?",
+          "options": ["To initialize an object's attributes", "To define class variables", "To create class methods", "To handle inheritance"],
+          "correctOption": "To initialize an object's attributes",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `map()` function do in Python?",
+          "options": ["Applies a function to all items in an iterable", "Filters elements from a list", "Sorts a list", "Combines multiple lists"],
+          "correctOption": "Applies a function to all items in an iterable",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you install a package in Python using pip?",
+          "options": ["pip add package_name", "pip install package_name", "python install package_name", "python add package_name"],
+          "correctOption": "pip install package_name",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `yield` keyword do in Python?",
+          "options": ["Returns a generator", "Defines a function", "Stops a loop", "Imports a module"],
+          "correctOption": "Returns a generator",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Python library is commonly used for data visualization?",
+          "options": ["NumPy", "SciPy", "Matplotlib", "Pandas"],
+          "correctOption": "Matplotlib",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you create a virtual environment in Python?",
+          "options": ["python -m venv env", "virtualenv create env", "pip install env", "pyenv create env"],
+          "correctOption": "python -m venv env",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `__str__` method do in a Python class?",
+          "options": ["Returns a string representation of the object", "Converts an object to a string", "Initializes the object", "Creates a new instance of the class"],
+          "correctOption": "Returns a string representation of the object",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "testId": "4",
+      "testName": "React Developer Beginner",
+      "quesArray": [
+        {
+          "question": "What is the primary purpose of React?",
+          "options": ["To build user interfaces", "To manage databases", "To handle server-side operations", "To optimize SEO"],
+          "correctOption": "To build user interfaces",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you create a React component using a function?",
+          "options": ["function MyComponent() { return <div>Hello</div>; }", "class MyComponent extends React.Component { render() { return <div>Hello</div>; } }", "MyComponent = () => <div>Hello</div>", "component MyComponent() { return <div>Hello</div>; }"],
+          "correctOption": "function MyComponent() { return <div>Hello</div>; }",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the `useState` hook do in React?",
+          "options": ["Manages component state", "Handles side effects", "Creates a context", "Manages refs"],
+          "correctOption": "Manages component state",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which of the following is true about React components?",
+          "options": ["Components can be either class-based or function-based", "Components must always be class-based", "Components cannot have state", "Components cannot receive props"],
+          "correctOption": "Components can be either class-based or function-based",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is JSX?",
+          "options": ["A syntax extension for JavaScript that looks similar to XML", "A module loader for JavaScript", "A CSS preprocessor", "A database query language"],
+          "correctOption": "A syntax extension for JavaScript that looks similar to XML",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you handle events in React?",
+          "options": ["By using camelCase syntax and functions", "By using lowercase syntax and inline JavaScript", "By defining event handlers in HTML", "By importing event handlers from a module"],
+          "correctOption": "By using camelCase syntax and functions",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the virtual DOM in React?",
+          "options": ["A lightweight copy of the real DOM", "A database schema", "A server-side technology", "A type of web server"],
+          "correctOption": "A lightweight copy of the real DOM",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you pass data from a parent component to a child component in React?",
+          "options": ["Using props", "Using state", "Using context", "Using refs"],
+          "correctOption": "Using props",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `useEffect` hook in React?",
+          "options": ["To handle side effects in function components", "To manage component state", "To create a context", "To define event handlers"],
+          "correctOption": "To handle side effects in function components",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following methods is used to update the state in a React class component?",
+          "options": ["setState", "updateState", "changeState", "modifyState"],
+          "correctOption": "setState",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is React Router used for?",
+          "options": ["To manage navigation and routing in a React application", "To style React components", "To handle state management", "To optimize React performance"],
+          "correctOption": "To manage navigation and routing in a React application",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the significance of `key` prop in a list of elements in React?",
+          "options": ["To help identify which items have changed, are added, or removed", "To sort the list elements", "To store additional data for each element", "To manage element focus in the list"],
+          "correctOption": "To help identify which items have changed, are added, or removed",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary advantage of using React?",
+          "options": ["It makes it easy to create interactive UIs", "It provides database management capabilities", "It is a backend framework", "It simplifies server-side rendering"],
+          "correctOption": "It makes it easy to create interactive UIs",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you conditionally render a component in React?",
+          "options": ["Using ternary operators or logical &&", "Using the switch statement", "Using the conditional operator", "Using a for loop"],
+          "correctOption": "Using ternary operators or logical &&",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which hook is used to access the value of a ref in a function component?",
+          "options": ["useRef", "useContext", "useState", "useEffect"],
+          "correctOption": "useRef",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of `React.StrictMode`?",
+          "options": ["To highlight potential problems in an application", "To enforce strict variable typing", "To manage state updates", "To define application routes"],
+          "correctOption": "To highlight potential problems in an application",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you style components in React?",
+          "options": ["Using inline styles, CSS classes, or styled-components", "Using the `style` attribute only", "Using external JavaScript files", "Using HTML tags"],
+          "correctOption": "Using inline styles, CSS classes, or styled-components",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is a higher-order component in React?",
+          "options": ["A function that takes a component and returns a new component", "A component that renders other components", "A method for optimizing state management", "A component that handles API requests"],
+          "correctOption": "A function that takes a component and returns a new component",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "How do you optimize the performance of a React application?",
+          "options": ["Using memoization techniques like `React.memo` and `useMemo`", "Avoiding use of any hooks", "Running all code on the server", "Using only class components"],
+          "correctOption": "Using memoization techniques like `React.memo` and `useMemo`",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the purpose of `Context API` in React?",
+          "options": ["To manage global state across the application", "To optimize component rendering", "To manage component lifecycle methods", "To handle HTTP requests"],
+          "correctOption": "To manage global state across the application",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the difference between `state` and `props` in React?",
+          "options": ["State is managed within the component, while props are passed to the component", "Props can be modified within the component, while state is read-only", "State is used for routing, while props are used for styling", "Props and state are both immutable"],
+          "correctOption": "State is managed within the component, while props are passed to the component",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you create a controlled input in React?",
+          "options": ["By managing the input's value through the component's state", "By binding the input to an external library", "By using a stateless functional component", "By using the `useRef` hook"],
+          "correctOption": "By managing the input's value through the component's state",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which lifecycle method is used to perform actions after a component is added to the DOM?",
+          "options": ["componentDidMount", "componentWillUnmount", "componentDidUpdate", "componentWillUpdate"],
+          "correctOption": "componentDidMount",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of `PropTypes` in React?",
+          "options": ["To validate the types of props passed to a component", "To define default values for props", "To manage component lifecycle", "To handle state updates"],
+          "correctOption": "To validate the types of props passed to a component",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is `React.Fragment` used for?",
+          "options": ["To group multiple elements without adding extra nodes to the DOM", "To define a reusable component", "To handle asynchronous operations", "To manage component state"],
+          "correctOption": "To group multiple elements without adding extra nodes to the DOM",
+          "difficulty": "Beginner"
+        }
+      ]
+    },
+    {
+      "testId": "5",
+      "testName": "Node.js Developer Intermediate",
+      "quesArray": [
+        {
+          "question": "What is Node.js primarily used for?",
+          "options": ["Server-side scripting", "Client-side scripting", "Database management", "Graphic design"],
+          "correctOption": "Server-side scripting",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which module in Node.js is used to create a web server?",
+          "options": ["http", "fs", "path", "url"],
+          "correctOption": "http",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you read a file asynchronously in Node.js?",
+          "options": ["fs.readFile()", "fs.readFileSync()", "fs.read()", "fs.readSync()"],
+          "correctOption": "fs.readFile()",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `npm` command do?",
+          "options": ["Manages Node.js packages", "Compiles JavaScript files", "Serves web pages", "Runs Node.js scripts"],
+          "correctOption": "Manages Node.js packages",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `require` function in Node.js?",
+          "options": ["To import modules", "To create new modules", "To define constants", "To handle exceptions"],
+          "correctOption": "To import modules",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the significance of `package.json` in a Node.js project?",
+          "options": ["It contains metadata about the project and dependencies", "It stores environment variables", "It lists all functions used in the project", "It defines database schemas"],
+          "correctOption": "It contains metadata about the project and dependencies",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you handle errors in asynchronous functions in Node.js?",
+          "options": ["Using try-catch blocks", "Using event listeners", "Using global error handlers", "Using synchronous code"],
+          "correctOption": "Using try-catch blocks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is middleware in the context of Node.js and Express?",
+          "options": ["Functions that process requests between the client and server", "Libraries used for database management", "Frameworks for front-end development", "Tools for managing server-side templates"],
+          "correctOption": "Functions that process requests between the client and server",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which method is used to parse JSON data in Node.js?",
+          "options": ["JSON.parse()", "JSON.stringify()", "JSON.decode()", "JSON.read()"],
+          "correctOption": "JSON.parse()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you install a Node.js package globally?",
+          "options": ["npm install -g package_name", "npm install package_name", "npm add package_name", "npm link package_name"],
+          "correctOption": "npm install -g package_name",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of the `buffer` module in Node.js?",
+          "options": ["To handle binary data", "To manage file systems", "To create HTTP requests", "To define environment variables"],
+          "correctOption": "To handle binary data",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the difference between `module.exports` and `exports` in Node.js?",
+          "options": ["`module.exports` is used to export a single item, while `exports` is used to add multiple properties or methods", "`module.exports` is for asynchronous functions, while `exports` is for synchronous functions", "`module.exports` is for exporting constants, while `exports` is for exporting variables", "`module.exports` and `exports` are interchangeable"],
+          "correctOption": "`module.exports` is used to export a single item, while `exports` is used to add multiple properties or methods",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you start a Node.js application?",
+          "options": ["node app.js", "npm start app.js", "start app.js", "run app.js"],
+          "correctOption": "node app.js",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is an event loop in Node.js?",
+          "options": ["A mechanism that allows Node.js to perform non-blocking I/O operations", "A function that handles HTTP requests", "A method for creating server-side templates", "A tool for managing database connections"],
+          "correctOption": "A mechanism that allows Node.js to perform non-blocking I/O operations",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which command is used to initialize a new Node.js project?",
+          "options": ["npm init", "node init", "npm start", "node start"],
+          "correctOption": "npm init",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of `express.Router()` in an Express application?",
+          "options": ["To create modular, mountable route handlers", "To manage application views", "To define environment variables", "To perform database queries"],
+          "correctOption": "To create modular, mountable route handlers",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "How do you serve static files in an Express application?",
+          "options": ["Using `express.static` middleware", "Using `res.sendFile` method", "Using `staticHandler` function", "Using `fileServer` module"],
+          "correctOption": "Using `express.static` middleware",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a promise in Node.js?",
+          "options": ["An object that represents the eventual completion or failure of an asynchronous operation", "A function that runs immediately after the current function", "A method for creating synchronous code", "A way to handle file operations"],
+          "correctOption": "An object that represents the eventual completion or failure of an asynchronous operation",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you create a custom event emitter in Node.js?",
+          "options": ["Using the `events` module", "Using the `http` module", "Using the `fs` module", "Using the `buffer` module"],
+          "correctOption": "Using the `events` module",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the purpose of the `path` module in Node.js?",
+          "options": ["To handle and transform file paths", "To manage HTTP requests", "To perform cryptographic operations", "To connect to databases"],
+          "correctOption": "To handle and transform file paths",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common use case for `streams` in Node.js?",
+          "options": ["To handle large amounts of data efficiently", "To manage application views", "To create server-side templates", "To define environment variables"],
+          "correctOption": "To handle large amounts of data efficiently",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What does the `process` object represent in Node.js?",
+          "options": ["The current Node.js process", "The HTTP server", "The file system", "The database connection"],
+          "correctOption": "The current Node.js process",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you handle asynchronous code in Node.js?",
+          "options": ["Using callbacks, promises, or async/await", "Using synchronous functions", "By blocking the event loop", "By using only synchronous I/O"],
+          "correctOption": "Using callbacks, promises, or async/await",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is `Express.js` in the context of Node.js?",
+          "options": ["A web application framework for Node.js", "A database management tool", "A front-end framework", "A file system library"],
+          "correctOption": "A web application framework for Node.js",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you exit a Node.js process?",
+          "options": ["process.exit()", "exit()", "process.terminate()", "terminate()"],
+          "correctOption": "process.exit()",
+          "difficulty": "Beginner"
+        }
+      ]
+    },
+    {
+      "testId": "6",
+      "testName": "Java Developer Intermediate",
+      "quesArray": [
+        {
+          "question": "What is the main purpose of the Java `Virtual Machine (JVM)`?",
+          "options": ["To execute Java bytecode", "To compile Java source code", "To manage database connections", "To handle network requests"],
+          "correctOption": "To execute Java bytecode",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which keyword is used to define a class in Java?",
+          "options": ["class", "define", "struct", "object"],
+          "correctOption": "class",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is inheritance in Java?",
+          "options": ["A mechanism where one class acquires the properties and behaviors of another class", "A method for overloading operators", "A way to implement multiple interfaces", "A process to encapsulate data"],
+          "correctOption": "A mechanism where one class acquires the properties and behaviors of another class",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you handle exceptions in Java?",
+          "options": ["Using try-catch blocks", "Using error handlers", "Using the finally keyword", "Using event listeners"],
+          "correctOption": "Using try-catch blocks",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which method is called when an object is created in Java?",
+          "options": ["constructor", "init", "setup", "new"],
+          "correctOption": "constructor",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is polymorphism in Java?",
+          "options": ["The ability of an object to take many forms", "A method to handle multiple exceptions", "A way to implement interfaces", "A feature for memory management"],
+          "correctOption": "The ability of an object to take many forms",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of the `super` keyword in Java?",
+          "options": ["To refer to the parent class", "To define a static method", "To create a new object", "To handle errors"],
+          "correctOption": "To refer to the parent class",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which collection class allows you to access elements by a unique key?",
+          "options": ["HashMap", "ArrayList", "LinkedList", "Stack"],
+          "correctOption": "HashMap",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of the `interface` keyword in Java?",
+          "options": ["To define a contract that other classes can implement", "To handle exceptions", "To declare a new class", "To manage memory"],
+          "correctOption": "To define a contract that other classes can implement",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is multithreading in Java?",
+          "options": ["A feature that allows concurrent execution of two or more threads", "A method to handle multiple events", "A process for managing memory", "A technique for sorting data"],
+          "correctOption": "A feature that allows concurrent execution of two or more threads",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "How do you create a new instance of a class in Java?",
+          "options": ["new ClassName()", "create ClassName()", "instance ClassName()", "newObject ClassName()"],
+          "correctOption": "new ClassName()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is garbage collection in Java?",
+          "options": ["The process of reclaiming unused memory", "A method to sort data", "A feature for handling exceptions", "A technique to encrypt data"],
+          "correctOption": "The process of reclaiming unused memory",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `final` keyword do in Java?",
+          "options": ["Marks a variable, method, or class as unchangeable", "Defines a new method", "Specifies the end of a loop", "Indicates an error condition"],
+          "correctOption": "Marks a variable, method, or class as unchangeable",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between `==` and `equals()` in Java?",
+          "options": ["`==` compares references, while `equals()` compares values", "`==` compares values, while `equals()` compares references", "`==` is for integers, while `equals()` is for strings", "`==` is used for comparisons, while `equals()` is used for assignments"],
+          "correctOption": "`==` compares references, while `equals()` compares values",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["extends", "implements", "inherits", "uses"],
+          "correctOption": "extends",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the `static` keyword signify in Java?",
+          "options": ["That the variable or method belongs to the class rather than an instance", "That the variable or method is read-only", "That the variable or method is temporary", "That the variable or method is dynamic"],
+          "correctOption": "That the variable or method belongs to the class rather than an instance",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "How do you declare a constant in Java?",
+          "options": ["Using the `final` keyword", "Using the `const` keyword", "Using the `static` keyword", "Using the `constant` keyword"],
+          "correctOption": "Using the `final` keyword",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which method in the `String` class is used to compare two strings?",
+          "options": ["equals()", "compare()", "match()", "compareTo()"],
+          "correctOption": "equals()",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the purpose of the `abstract` keyword in Java?",
+          "options": ["To declare a method or class that cannot be instantiated", "To create a new object", "To manage file I/O", "To define a final variable"],
+          "correctOption": "To declare a method or class that cannot be instantiated",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an `enum` in Java?",
+          "options": ["A special class that represents a group of constants", "A method for error handling", "A keyword for memory management", "A feature for database connections"],
+          "correctOption": "A special class that represents a group of constants",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "How do you handle exceptions in Java?",
+          "options": ["Using try-catch blocks", "Using error handlers", "Using the finally keyword", "Using event listeners"],
+          "correctOption": "Using try-catch blocks",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the difference between `List` and `Set` in Java?",
+          "options": ["`List` allows duplicates, while `Set` does not", "`Set` allows duplicates, while `List` does not", "`List` and `Set` both allow duplicates", "`List` is unordered, while `Set` is ordered"],
+          "correctOption": "`List` allows duplicates, while `Set` does not",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a lambda expression in Java?",
+          "options": ["A feature that provides a clear and concise way to represent a function interface", "A method for handling exceptions", "A technique for sorting data", "A process to encapsulate data"],
+          "correctOption": "A feature that provides a clear and concise way to represent a function interface",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which method in Java is used to start a thread?",
+          "options": ["start()", "run()", "init()", "begin()"],
+          "correctOption": "start()",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you synchronize a block of code in Java?",
+          "options": ["Using the `synchronized` keyword", "Using the `volatile` keyword", "Using the `atomic` keyword", "Using the `transient` keyword"],
+          "correctOption": "Using the `synchronized` keyword",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What is the purpose of the `Object` class in Java?",
+          "options": ["It is the superclass of all classes in Java", "It is used to handle exceptions", "It provides methods for database connections", "It manages memory in the JVM"],
+          "correctOption": "It is the superclass of all classes in Java",
+          "difficulty": "Beginner"
+        }
+      ]
     }
-    ]
+  ]
   
