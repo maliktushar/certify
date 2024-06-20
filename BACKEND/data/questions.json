@@ -1,0 +1,212 @@
+[
+    {
+      "testId": "1",
+      "testName": "Software Engineer Intern",
+      "quesArray": [
+        {
+          "question": "What is the time complexity of binary search?",
+          "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+          "correctOption": "O(log n)",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which design pattern is used to restrict the instantiation of a class to one object?",
+          "options": ["Factory", "Observer", "Singleton", "Decorator"],
+          "correctOption": "Singleton",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does SOLID stand for in software development?",
+          "options": [
+            "Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion",
+            "Structured, Object-oriented, Linear, Inheritance, Design",
+            "Systematic, Open-source, Linked, Integration, Development",
+            "Service-oriented, Layered, Independent, Distributed"
+          ],
+          "correctOption": "Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which of the following is a NoSQL database?",
+          "options": ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
+          "correctOption": "MongoDB",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "In Agile methodologies, what is a sprint?",
+          "options": ["A phase in waterfall model", "A time-boxed period for specific work", "A technique for bug tracking", "A type of software test"],
+          "correctOption": "A time-boxed period for specific work",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the main advantage of using version control systems like Git?",
+          "options": ["Increased disk space", "Team collaboration and code history management", "Automatic code optimization", "Integration with hardware"],
+          "correctOption": "Team collaboration and code history management",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of unit testing?",
+          "options": ["To test entire software for all scenarios", "To test individual components or functions", "To optimize code performance", "To check system integration"],
+          "correctOption": "To test individual components or functions",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which HTTP method is used to update a resource on the server?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "correctOption": "PUT",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is polymorphism in Object-Oriented Programming?",
+          "options": ["The ability to take multiple forms", "A feature for code reuse", "A method to define constants", "An attribute to manage memory"],
+          "correctOption": "The ability to take multiple forms",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "What does CI/CD stand for?",
+          "options": ["Continuous Integration/Continuous Deployment", "Code Integration/Code Deployment", "Certified Integration/Certified Deployment", "Configuration Integrity/Configuration Delivery"],
+          "correctOption": "Continuous Integration/Continuous Deployment",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which language is primarily used for developing Android apps?",
+          "options": ["Swift", "Kotlin", "C#", "Ruby"],
+          "correctOption": "Kotlin",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary use of Docker in software development?",
+          "options": ["To create virtual machines", "To automate software deployment", "To manage database schemas", "To write unit tests"],
+          "correctOption": "To automate software deployment",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a RESTful API?",
+          "options": ["An API that uses SOAP protocol", "An API that conforms to REST architectural style", "An API that performs data mining", "An API designed for real-time communication"],
+          "correctOption": "An API that conforms to REST architectural style",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "In JavaScript, what does 'this' keyword refer to?",
+          "options": ["The current object", "The global object", "The parent object", "The window object"],
+          "correctOption": "The current object",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a popular JavaScript runtime environment?",
+          "options": ["Apache", "Nginx", "Node.js", "Tomcat"],
+          "correctOption": "Node.js",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is encapsulation in Object-Oriented Programming?",
+          "options": ["Combining data and methods into a single unit", "The ability to inherit features from a base class", "The concept of multiple methods with the same name", "Hiding the implementation details from the user"],
+          "correctOption": "Combining data and methods into a single unit",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which data structure uses a FIFO (First In, First Out) principle?",
+          "options": ["Stack", "Queue", "Tree", "Graph"],
+          "correctOption": "Queue",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is the main purpose of using the `async` and `await` keywords in JavaScript?",
+          "options": ["To write synchronous code", "To handle exceptions", "To simplify handling of asynchronous code", "To define modules"],
+          "correctOption": "To simplify handling of asynchronous code",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common use case for GraphQL?",
+          "options": ["Database optimization", "Client-server communication", "Building user interfaces", "Writing unit tests"],
+          "correctOption": "Client-server communication",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a version control system?",
+          "options": ["Jenkins", "Docker", "Git", "Kubernetes"],
+          "correctOption": "Git",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "In a relational database, what does SQL stand for?",
+          "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "System Query Language"],
+          "correctOption": "Structured Query Language",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which HTTP status code indicates a successful request?",
+          "options": ["200", "404", "500", "401"],
+          "correctOption": "200",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What is an API?",
+          "options": ["Application Program Interface", "Automated Process Integration", "Advanced Programming Interface", "Application Platform Interface"],
+          "correctOption": "Application Program Interface",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which is a commonly used front-end JavaScript framework?",
+          "options": ["Laravel", "Django", "Spring", "React"],
+          "correctOption": "React",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In CSS, which property is used to change the background color?",
+          "options": ["color", "bgcolor", "background-color", "background"],
+          "correctOption": "background-color",
+          "difficulty": "Beginner"
+        }
+      ]
+    },
+    {
+      "testId": "2",
+      "testName": "SQL Advanced",
+      "quesArray": [
+        {
+          "question": "What is a primary key in SQL?",
+          "options": ["A unique identifier for a row", "A key used to encrypt data", "A command to join tables", "A function to calculate totals"],
+          "correctOption": "A unique identifier for a row",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which SQL command is used to remove a table from the database?",
+          "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+          "correctOption": "DROP",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the SQL command `SELECT DISTINCT` do?",
+          "options": ["Selects unique records", "Selects the first record", "Selects all records", "Selects records based on a condition"],
+          "correctOption": "Selects unique records",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a foreign key in SQL?",
+          "options": ["A key that uniquely identifies a row in another table", "A key used for encrypting data", "A key used to define constraints", "A key used for indexing"],
+          "correctOption": "A key that uniquely identifies a row in another table",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you add a new column to an existing table in SQL?",
+          "options": ["ADD COLUMN", "MODIFY COLUMN", "INSERT COLUMN", "ALTER TABLE"],
+          "correctOption": "ALTER TABLE",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a SQL JOIN?",
+          "options": ["Combining rows from two or more tables", "Adding a new column to a table", "Deleting a table", "Updating a row in a table"],
+          "correctOption": "Combining rows from two or more tables",
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "What does the SQL `UNION` command do?",
+          "options": ["Combines the result set of two or more SELECT statements", "Joins tables based on a foreign key", "Deletes duplicate rows in a table", "Sorts records in descending order"],
+          "correctOption": "Combines the result set of two or more SELECT statements",
+          "difficulty": "Advanced"
+        }
+        ]
+    }
+    ]
+  
